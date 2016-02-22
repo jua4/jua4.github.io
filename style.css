@@ -28,6 +28,3 @@ li {
 li a:hover {
     background-color: #111;
 }
-li:last-child {
-    border-right: none;
-}
