@@ -4,5 +4,28 @@ body {
 
 h1 {
     color: navy;
-    margin-left:20px;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+}
+li a:hover {
+    background-color: #000;
+}
+li:last-child {
+    border-right: none;
 }
