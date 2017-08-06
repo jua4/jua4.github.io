@@ -1,0 +1,37 @@
+body {
+    background-color:lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+<<<<<<< HEAD
+    color: navy;
+=======
+    color: white;
+>>>>>>> 17f012c9d8c827c77abebf286cd59d6d47055642
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
